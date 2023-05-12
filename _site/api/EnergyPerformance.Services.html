@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace EnergyPerformance.Services
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace EnergyPerformance.Services
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+
+      <script type="module">
+        import docfx from './../public/main.js'
+        window.docfx = docfx
+        window.MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        }
+      </script>
+      <script type="text/javascript" src="../public/docfx.min.js"></script>
+  </head>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="EnergyPerformance.Services">
+
+  <h1 id="EnergyPerformance_Services" data-uid="EnergyPerformance.Services" class="text-break">Namespace EnergyPerformance.Services
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.ActivationService.html">ActivationService</a></dt>
+      <dd><p>Activation Service. Performs required actions on application startup, including calling InitializeAsync methods for classes
+requiring asynchronous initialization.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.CpuTrackerService.html">CpuTrackerService</a></dt>
+      <dd><p>This class is responsible for tracking the current CPU usage and performing automatic or manual switching between energy profiles.
+It is a background service that runs on a separate thread and is executed periodically, on a per-second basis.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.EnergyUsageFileService.html">EnergyUsageFileService</a></dt>
+      <dd><p>Class that saves and reads energy usage data to/from LocalAppData storage.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.LocalSettingsService.html">LocalSettingsService</a></dt>
+      <dd><p>Service that provides access to local settings and acts as a container for getting and setting
+user's settings choices for other classes (Services, ViewModels and Models).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.NavigationService.html">NavigationService</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.NavigationViewService.html">NavigationViewService</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.PageService.html">PageService</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.PeriodicDataSaverService.html">PeriodicDataSaverService</a></dt>
+      <dd><p>Hosted Service that saves the data in the EnergyUsageModel to a file every 5 minutes.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.PowerMonitorService.html">PowerMonitorService</a></dt>
+      <dd><p>Hosted Service that monitors the power usage of the system, with periodic reporting every second.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.PowerMonitorService.UpdateVisitor.html">PowerMonitorService.UpdateVisitor</a></dt>
+      <dd><p>Visitor class used to update the hardware components of the system.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="EnergyPerformance.Services.ThemeSelectorService.html">ThemeSelectorService</a></dt>
+      <dd><p>Class responsible for loading and saving user's preferred theme in settings, as well as
+applying it to the application at runtime.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

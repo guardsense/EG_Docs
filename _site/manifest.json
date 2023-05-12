@@ -1,0 +1,772 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/siamn/Documents/CompSci/actual/EG_Source/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Activation.ActivationHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Activation.ActivationHandler-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Activation.AppNotificationActivationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Activation.AppNotificationActivationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Activation.DefaultActivationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Activation.DefaultActivationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Activation.IActivationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Activation.IActivationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Activation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Activation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Behaviors.NavigationViewHeaderBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Behaviors.NavigationViewHeaderBehavior.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Behaviors.NavigationViewHeaderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Behaviors.NavigationViewHeaderMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Behaviors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Behaviors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.IActivationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.IActivationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.IAppNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.IAppNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.ICpuTrackerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.ICpuTrackerService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.ILocalSettingsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.ILocalSettingsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.INavigationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.INavigationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.INavigationViewService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.INavigationViewService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.IPageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.IPageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.IPowerMonitorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.IPowerMonitorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.IThemeSelectorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.IThemeSelectorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.ViewModels.INavigationAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.ViewModels.INavigationAware.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Contracts.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Contracts.ViewModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.BudgetStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.BudgetStringConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.CostStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.CostStringConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.CpuInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.CpuInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.EnergyUsageLocalizedStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.EnergyUsageLocalizedStringConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.EnumToIndexConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.EnumToIndexConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.FrameExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.FrameExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.NavigationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.NavigationHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.PercentToColourConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.PercentToColourConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.PowerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.PowerInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.PowerUsageStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.PowerUsageStringConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.ResourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.ResourceExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.RuntimeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.RuntimeHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.SettingsStorageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.SettingsStorageExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.MainWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Models.EnergyUsageModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Models.EnergyUsageModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Models.LocalSettingsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Models.LocalSettingsOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Notifications.AppNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Notifications.AppNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Notifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Notifications.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.ActivationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.ActivationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.CpuTrackerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.CpuTrackerService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.EnergyUsageFileService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.EnergyUsageFileService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.LocalSettingsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.LocalSettingsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.NavigationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.NavigationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.NavigationViewService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.NavigationViewService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.PageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.PageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.PeriodicDataSaverService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.PeriodicDataSaverService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.PowerMonitorService.UpdateVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.PowerMonitorService.UpdateVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.PowerMonitorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.PowerMonitorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.ThemeSelectorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.ThemeSelectorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Temporary.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Temporary.Controller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Temporary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Temporary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.ViewModels.EnergyUsageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.ViewModels.EnergyUsageViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.ViewModels.MainViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.ViewModels.MainViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.ViewModels.SettingsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.ViewModels.SettingsViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.ViewModels.ShellViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.ViewModels.ShellViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.ViewModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Views.EnergyUsagePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Views.EnergyUsagePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Views.MainPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Views.MainPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Views.SettingsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Views.SettingsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Views.ShellPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Views.ShellPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Views.TrayIconView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Views.TrayIconView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.Views.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EnergyPerformance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EnergyPerformance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DI.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MVVM.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/MVVM.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

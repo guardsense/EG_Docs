@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>System Manual </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="System Manual ">
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/guardsense/EG_Source/blob/main/docs/index.md/#L1">
+
+      <script type="module">
+        import docfx from './public/main.js'
+        window.docfx = docfx
+        window.MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        }
+      </script>
+      <script type="text/javascript" src="public/docfx.min.js"></script>
+  </head>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="system-manual"><strong>System Manual</strong></h1>
+
+<h2 id="minimum-requirements"><u>Minimum Requirements</u></h2>
+<p>The following requirements must be met in order to fully develop all aspects of the application.</p>
+<h3 id="cpu">CPU</h3>
+<p>Intel 12th or 13th-gen i5 processor or above, with at least 4 E-cores and 2 P-cores.</p>
+<h3 id="operating-system">Operating System</h3>
+<p>Windows 11, version 22H2 or above</p>
+<h3 id="ide">IDE</h3>
+<p><a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2022</a>, version 17.5.2 or above</p>
+<h2 id="visual-studio-2022-setup"><u>Visual Studio 2022 Setup</u></h2>
+<h3 id="select-visual-studio-2022-workloads">Select Visual Studio 2022 Workloads</h3>
+<p>Open Visual Studio 2022, and open Tools → Get Tools and Features.
+Install the following <strong>Workloads</strong> presented in the Workloads tab:</p>
+<ol>
+<li>.NET Desktop Development</li>
+</ol>
+<ul>
+<li>From the list of optional components, also select:
+<ul>
+<li>Windows App SDK C# Templates</li>
+<li>MSIX Packaging Tools</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li><p>Desktop Development with C++</p>
+<ul>
+<li>From the list of optional components, also select:
+<ul>
+<li>C++/CLI support for v143 build tools (Latest)</li>
+<li>Windows App SDK C++ Templates</li>
+</ul>
+</li>
+<li>Check that the following optional component(s) for the <strong>workload</strong> will be installed:
+<ul>
+<li>MSVC v143 - VS 2022 C++ x64/x86 build tools</li>
+<li>Windows 11 SDK (10.0.22621.0)</li>
+<li>Windows 10 SDK (10.0.19041.0)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Universal Windows Platform Development</p>
+<ul>
+<li>Check that the following optional component(s) for the <strong>workload</strong> will be installed:
+<ul>
+<li>C++ (v143) Universal Windows Platform tools</li>
+<li>Windows 11 SDK (10.0.22621.0)</li>
+<li>Windows 10 SDK (10.0.19041.0)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><em>NB: When selecting a workload, ensure not to unselect any components in the optional tab that are selected by default.</em></p>
+<h3 id="select-individual-components-for-installation">Select Individual Components for Installation</h3>
+<p>From the same Tools and Features window, switch tabs from <strong>Workloads</strong> to <strong>Individual Components</strong>.</p>
+<p>Select Individual Components:</p>
+<ol>
+<li>Windows Universal C Runtime</li>
+<li>Windows 10 SDK (10.0.19041.0)</li>
+</ol>
+<h3 id="install">Install</h3>
+<p>Select the <strong>Modify</strong> (or Install) button in the bottom right corner of the Tools and Features window to install all the selected components and workloads.</p>
+<h2 id="setting-up-nuget-package-manager"><u>Setting up NuGet Package Manager</u></h2>
+<p>From the toolbar, Open Tools → Nuget Package Manager → Package Manager Settings.</p>
+<ol>
+<li>Click <strong>Clear All NuGet Storage</strong> in the General tab.</li>
+<li>Click on <strong>Package Sources</strong> under the NuGet Package Manager tab on the Options window.</li>
+<li>Ensure the <strong>nuget.org</strong> package source is set up correctly, with the Source set to the following (URL)[https://api.nuget.org/v3/index.json].
+If any changes were made, make sure to click the <strong>Update</strong> button to save changes,</li>
+<li>Add a new package source:
+<ul>
+<li>Set the name to <strong>Microsoft Labs Community Toolkit</strong></li>
+<li>Set the Source to the following (URL)[https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-Labs/nuget/v3/index.json]</li>
+<li>Click <strong>Update</strong> to save changes.</li>
+</ul>
+</li>
+<li>Click <strong>Ok</strong> on the Options window and close</li>
+</ol>
+<h2 id="running-the-app"><u>Running the App</u></h2>
+<ol>
+<li>Clone the project from the following GitHub <a href="https://github.com/guardsense/EG_Source">link</a>.</li>
+<li>Open <strong>Core.sln</strong> inside the Core folder from the root directory.</li>
+<li>Visual Studio will automatically detect the Energy Performance startup project. Ensure that &quot;EnergyPerformance&quot; is selected at the top bar of Visual Studio, under the startup project dropdown, rather than &quot;Core&quot; or &quot;EnergyPerformance.Tests.MSTest&quot;.</li>
+<li>Either click one of the two <em>Run</em> buttons at the top bar of Visual Studio, next to <em>Energy Performance (Package)</em> <strong>OR</strong> on the toolbar, under Debug, press either <em>Start Debugging</em> or <em>Start Without Debugging</em>.</li>
+<li>Building the project for the first time may take a while, as Visual Studio will download and install all NuGet packages required for the application. On future runs, deployment will be much faster.</li>
+<li>After the project is built, the app will start. To exit the app, either press the <em>Stop</em> button in Visual Studio (if started with debugging) or right click on the new icon in the taskbar tray for EnergyGuard, and press <strong>Exit</strong>.</li>
+</ol>
+<h2 id="deploying-the-app-for-publishing"><u>Deploying the App for Publishing</u></h2>
+<ol>
+<li>Open the <em>Solution Explorer</em> window in Visual Studio.</li>
+<li>Right click on the <strong>Energy Performance</strong> project and select Package and Publish → Create App Package.</li>
+<li>To distribute the app to the Microsoft Store, select <em>Microsoft Store under a new app name</em> and follow the instructions displayed.</li>
+<li>For standard distribution to all other sources, select <em>Sideloading</em> and click next:
+<ol>
+<li>Select <em>Yes, select a certificate</em> and either:
+<ul>
+<li>Select a package signing certificate from a trusted source if you already have one available.</li>
+<li>Select <em>Create</em> to create a new <strong>self-signed test certificate</strong> for testing deployment. Enter a publisher name and password and click 'OK'. Select <strong>Trust</strong> on the newly created certificate to trust this certificate on your system.</li>
+</ul>
+</li>
+<li>Click Next → Next → Create, using the default installation settings already selected.</li>
+<li>Once Visual Studio has finished creating the package, a new window will open showing the <em>Output location</em> of the newly created package. Open this folder and navigate to the new EnergyPerformance directory with the latest version name.</li>
+<li>Open the .msix file in this file and click <strong>Install</strong> to install the distributed version of the app on your device.</li>
+<li>You can now find the app installed on your system through the Start Menu.</li>
+</ol>
+</li>
+</ol>
+<h2 id="generating-documentation"><u>Generating Documentation</u></h2>
+<p>To generate documentation using docfx:</p>
+<ol>
+<li><p>Install docfx as a global tool using the command:</p>
+<p>​	<code>dotnet tool update -g docfx</code></p>
+</li>
+<li><p>Comment out <code>using CLI;</code> in both <code>CpuInfo.cs</code> and <code>CpuTrackerService.cs</code></p>
+</li>
+<li><p>Uncomment <code>using EnergyPerformance.Temporary;</code> in <strong>both</strong> these files.</p>
+</li>
+<li><p>Comment out <code>&lt;ProjectReference Include=&quot;..\Wrapper\Wrapper.vcxproj&quot; /&gt;</code> in <code>EnergyPerformance.csproj</code>.
+This will remove the reference to the Wrapper project which contains the C++/CLI code, as docfx does not support these
+files.</p>
+</li>
+<li><p>Run the following command in a new terminal inside the <code>docs</code> folder:</p>
+<p>​	<code>docfx docfx.json --serve</code></p>
+<p>This will build the documentation and deploy the website to http://localhost:8080/.</p>
+</li>
+<li><p>After viewing the website, press <code>Ctrl + C</code> or close the terminal, to stop hosting the website.</p>
+</li>
+<li><p><strong>Undo all the changes</strong> specified in instructions 2-4. Feel free to use Git to discard these changes to speed up this process.</p>
+</li>
+<li><p>For more information about docfx and getting started, visit the official <a href="https://dotnet.github.io/docfx/index.html">website</a>.</p>
+</li>
+</ol>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/guardsense/EG_Source/blob/main/docs/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
